@@ -1,11 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "A random user generator",
+  "name": "phavourCodes",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "sizes": "60x60 32x32 24x24 16x16",
+      "type": "/apple-icon-57x57.png"
     },
     {
       "src": "logo192.png",

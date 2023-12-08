@@ -22,14 +22,15 @@ function App() {
   
   return (
     <div className="App">
-      <Container fluid className="p-4 App">
+      <Container fluid className="p-4 ">
+        <h1 className='text-center'>Random User Generator</h1>
           <Row>
             <Col md={4} className='offset-md-4 mt-4'>
               <ProfileCard details={details}/>
             </Col>
           </Row>
           <div className='mt-3 '>
-          <Button onClick={fetchUsers} className='bg-danger px-5 offset-md-5 text-center'>Get random user</Button>
+          <Button onClick={fetchUsers} className='bg-danger px-5 offset-md-5 text-center btn-custom'>Get random user</Button>
           </div>
       </Container>
     </div>
